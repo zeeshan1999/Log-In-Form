@@ -1,0 +1,118 @@
+body{
+    background-image: url(mountain-evening-fog-cliff-dark-clouds.jpg);
+    /* background-repeat: no-repeat; */
+    opacity: 3;
+}
+*{
+    margin: 0;
+    color: white;
+}
+.flex-box{
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.flex-container{
+    margin: 20px;
+}
+.flex-container ul{
+    list-style: none;
+    position: relative;
+    top: 3px;
+    display: flex;
+}
+.flex-container ul li{
+    padding: 10px;
+}
+a{
+    color: white;
+}
+.fa-bars{
+    margin: 20px;
+    font-size: 20px;
+}
+#first-div{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+#first-div p{
+    position: relative;
+    top: 4px;
+    right: 2px;
+    border-bottom: 2px solid purple;
+}
+#form{
+    margin: 80px auto;
+    width: 400px;
+    height: 400px;
+    
+}
+#form input[type=text]{
+    padding-left: 50px;
+    color: white;
+}
+#form input[type=password]{
+    padding-left: 50px;
+    color: white;
+}
+.fa-user{
+    position: relative;
+    right: 170px;
+    bottom: 33px;
+}
+.fa-unlock-alt{
+    position: relative;
+    right: 170px;
+    bottom: 33px;
+}
+#nameField{
+    border-radius: 20px;
+    border: 2px solid lightslategray;
+    background-color:#ffffff00;
+    color: white;
+}
+#passField{
+    border-radius: 20px;
+    border: 2px solid lightslategray;
+    background-color:#ffffff00;
+    color: white;
+}
+#form input[type=text] + i{
+    color: white;
+}
+#form input[type=password] + i{
+    color: white;
+}
+#input::placeholder{
+    color: white;
+}
+h2{
+    margin: 70px auto
+}
+.fa-user{
+    font-size: 20px;
+}
+.fa-unlock-alt{
+    font-size: 20px;
+}
+form input::placeholder{
+    color: white;
+}
+.fa-times{
+    position: relative;
+    left: 160px;
+    bottom: 30px;
+}
+button{
+    width: 400px;
+}
+#success{
+    background-color: limegreen;
+    border-radius: 20px; 
+}
+#error{
+        background-color: red;
+        border-radius: 20px;    
+}
